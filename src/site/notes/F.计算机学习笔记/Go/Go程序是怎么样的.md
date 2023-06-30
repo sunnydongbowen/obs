@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"Go程序是怎么样的","permalink":"/Go程序是怎么样的/","noteIcon":"","created":"2023-04-18 21:09:01","updated":""}
+{"dg-publish":true,"dg-permalink":"Go程序是怎么样的","permalink":"/Go程序是怎么样的/","noteIcon":"","created":"2023-04-18","updated":""}
 ---
 
 ---
@@ -56,6 +56,8 @@ func main() {
 另外，那对花括号{}被用来标记函数体，Go 要求所有的函数体都要被花括号包裹起来。按照惯例，我们推荐把左花括号与函数声明置于同一行并以空格分隔。Go 语言内置了一套 Go 社区约定俗称的代码风格，并随安装包提供了一个名为 Gofmt 的工具，这个工具可以帮助你将代码自动格式化为约定的风格。
 
 >Gofmt 是 Go 语言在解决规模化（scale）问题上的一个最佳实践，并成为了 Go 语言吸引其他语言开发者的一大卖点。很多其他主流语言也在效仿 Go 语言推出自己的 format 工具，比如：Java formatter、Clang formatter、Dartfmt 等。因此，作为 Go 开发人员，请在提交你的代码前使用 Gofmt 格式化你的 Go 源码。**goland在提交之前是自动帮我们fmt的**。
+
+> main函数有许多注意点 [[F.计算机学习笔记/Go/go语法需要注意的地方\|go语法需要注意的地方]] 
 
 ## 4. fmt
 ---
