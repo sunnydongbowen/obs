@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/f/go/go/","noteIcon":"","created":"","updated":""}
+{"dg-publish":true,"dg-permalink":"Go语言学习笔记汇总","permalink":"/Go语言学习笔记汇总/","noteIcon":"","created":"","updated":""}
 ---
 
 
