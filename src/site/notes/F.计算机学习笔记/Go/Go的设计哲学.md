@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"Go的设计哲学","permalink":"/Go的设计哲学/","noteIcon":"","created":"2023-04-18","updated":""}
+{"dg-publish":true,"dg-permalink":"Go的设计哲学","permalink":"/Go的设计哲学/","noteIcon":"","created":"2023-04-18 3:19","updated":""}
 ---
 
 ---
