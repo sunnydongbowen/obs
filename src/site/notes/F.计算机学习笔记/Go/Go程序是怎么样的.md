@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"Go程序是怎么样的","permalink":"/Go程序是怎么样的/","noteIcon":"","created":"2023-04-18 21:09","updated":""}
+{"dg-publish":true,"dg-permalink":"Go程序是怎么样的","permalink":"/Go程序是怎么样的/","noteIcon":"","created":"2023-04-18 21:09:01","updated":""}
 ---
 
 ---
