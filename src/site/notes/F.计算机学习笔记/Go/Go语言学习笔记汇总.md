@@ -16,6 +16,9 @@
 [[F.计算机学习笔记/Go/Go程序是怎么样的\|Go程序是怎么样的]]
 [[F.计算机学习笔记/Go/go代码的执行顺序\|go代码的执行顺序]]
 
+[[F.计算机学习笔记/Go/Go module初步\|Go module初步]]
+[[F.计算机学习笔记/Go/Go module 详细\|Go module 详细]]
+
 [[F.计算机学习笔记/Go/const\|const]]
 
 [[F.计算机学习笔记/Go/遍历string含有中文的场景\|遍历string含有中文的场景]]
