@@ -14,20 +14,21 @@
 
 
 ##  2. go run和go build的区别
-
-{{< admonition type=note  title="go run"  open=false  >}}
+---
+```ad-note
+title: go run
 go run 编译并直接运行程序，它会产生一个临时文件（但实际不存在，也不会生成 .exe 文件），直接在命令行输出程序执行结果，方便用户调试，运行速度也相应较慢
 - 执行go run，尽可能在main包下执行，否则会报错
 - 执行go run，尽可能在大的目录下执行，因为单独执行某个文件，会出现找不到方法，变量的错误，这是因为go run的执行目录不对，而并非我们在程序中未定义
-{{< /admonition >}}
+```
 
-
-{{< admonition type=tip  title="go build"  open=false  >}}
+```ad-summary
+title: go build
 go build 用于测试编译包，主要检查是否会有编译错误，如果是一个可执行文件的源码（即是 main 包），就会在当前目录直接生成一个可执行文件（ .exe 文件）。运行速度快
-{{< /admonition >}}
-
+```
 
 ## 3. main函数
+---
 > 来看下面的函数
 ```go
 package main
