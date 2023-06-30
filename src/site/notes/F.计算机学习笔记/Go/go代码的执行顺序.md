@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"go代码的执行顺序","permalink":"/go代码的执行顺序/","noteIcon":"","created":"2023-01-12 13:03 PM","updated":"2023-01-13 22:05 PM"}
+{"dg-publish":true,"dg-permalink":"go代码的执行顺序","permalink":"/go代码的执行顺序/","noteIcon":"","created":"2023-01-12 13:03 pm","updated":"2023-01-13 22:05 pm"}
 ---
 
 ---
