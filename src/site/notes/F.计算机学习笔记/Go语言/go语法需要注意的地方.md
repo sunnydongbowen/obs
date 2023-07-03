@@ -4,8 +4,7 @@
 
 ## 变量声明
 ---
-go的声明是永远都是变量名在前面，类型在后面。我在使用replit敲时就犯了这个错误。
-导致一直给我报错，原因是我写错顺序了！
+go的声明是永远都是变量名在前面，类型在后面。我在使用replit敲时就犯了这个错误，导致一直给我报错，原因是我写错顺序了！
 ![Pasted image 20230627202811.png](/img/user/Z.image/Go/Pasted%20image%2020230627202811.png)
 
 ![Pasted image 20230627202839.png](/img/user/Z.image/Go/Pasted%20image%2020230627202839.png)
@@ -71,7 +70,7 @@ func sum1(a,b int) (sum int,error){
 ## main函数尽量放外面
 ---
 
-![LZ$FOBMJRQ5)(82{O_E[KQL.jpg](/img/user/LZ$FOBMJRQ5)(82%7BO_E%5BKQL.jpg)
+![Pasted image 20230703110045.png](/img/user/Pasted%20image%2020230703110045.png)
 
 
 这个是我在运行单元测试遇到的，为什么会有这个错误，是因为我把这个文件夹下的包声明成了package main，因为这个程序是带main函数的，尽管它只是一个测试程序。所以我这样写是不规范的。<font color="#c00000">正常的只能有一个main函数。且其他包的package声明尽量一致</font>。所以我之前的做法是不规范的。这就是在Linux命令行下运行和在windows下运行的区别。
