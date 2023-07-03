@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":" ","permalink":"/ /","noteIcon":"","created":"2023-05-31","updated":""}
+{"dg-publish":true,"dg-permalink":"slice基础篇","permalink":"/slice基础篇/","noteIcon":"","created":"2023-05-31","updated":""}
 ---
 
 ---
@@ -138,7 +138,6 @@ s6=[3 1300 7]
 > 可以看到，如果改了底层数组，其他的由底层数组得到的slice对于的数值都也会改变。
 
 
-
 ## 8. **使用make()函数构造切片**🎈
 
 ```go
@@ -191,7 +190,7 @@ fmt.Println(s3, s4)
 
 ## 10. 遍历
 切片的遍历和数组遍历是一样的，都可以通过`索引`或是`for range`的方式进行遍历
-{{< admonition type=note  title="索引遍历"  >}} 
+索引遍历:
 ```go
 for i := 0; i < len(s3); i++ {
 		fmt.Println(s3[i])
@@ -199,10 +198,8 @@ for i := 0; i < len(s3); i++ {
 	}
 ```
 
-{{< /admonition >}}
 
-
-{{< admonition type=tip  title="for range遍历"  >}} 
+for range遍历
 ```go
 for i := 0; i < len(s3); i++ {
 		fmt.Println(s3[i])
@@ -210,13 +207,11 @@ for i := 0; i < len(s3); i++ {
 	}
 ```
 
-{{< /admonition >}}
 
 ## 11. append()函数扩容切片 ✨
 
 Go语言的内建函数`append()`可以为切片动态添加元素。 可以一次添加一个元素，可以添加多个元素，也可以添加另一个切片中的元素（后面加…）
-{{< admonition type=example  title="扩容切片示例"  >}}
-
+>扩容切片示例
 ```go
 s1 := []string{"江宁", "鼓楼", "雨花台"}
 fmt.Printf("s1=%v,len(s1)=%d,cap(s1)=%d\n", s1, len(s1), cap(s1))
@@ -233,25 +228,17 @@ fmt.Printf("s1=%v,len(s1)=%d,cap(s2)=%d\n", s1, len(s1), cap(s1))
 ```
 
 `out`
-
 ```go
 s1=[江宁 鼓楼 雨花台],len(s1)=3,cap(s1)=3
 s1=[江宁 鼓楼 雨花台 建邺],len(s1)=4,cap(s1)=6                             
 s1=[江宁 鼓楼 雨花台 建邺 栖霞 连云港],len(s1)=6,cap(s1)=6 
 ```
 注意点
-
 - 使用原来的切片变量接收值
 - append是切片的时候，需要用`slicename...`, 而不是直接写切片名称
 - append 追加元素,原来的底层数组放不下的时候，go底层会把底层数组换一个。
- 
- {{< /admonition >}}
-
 
 ## 12. append扩容策略
-
-{{< admonition type=note  title="继续扩容"  >}}
-
 上面的cap可以看到，s1的容量第一次追加后扩容到6，但后面再追加就没有变。再在此基础上，增加1个元素,容量扩容到12
 
 ```go
@@ -266,17 +253,12 @@ fmt.Printf("s1=%v,len(s1)=%d cap(s1)=%d\\n", s1, len(s1), cap(s1))
 ```
 
 `out`
-
 ```go
 s1=[江宁 鼓楼 雨花台 建邺 栖霞 连云港 北京 上海 广州 bowen],len(s1)=10 cap(s1)=12
 ```
 
- {{< /admonition >}}
-
-
-{{< admonition type=note  title="切片扩容源码实现"  >}}
+切片扩容源码实现
 `容量扩容策略，根据不同的数据类型策略不一样。可以看源码，*$GOROOT/*src/runtime/slice.go`其中扩容相关代码如下
-
 ```go
 newcap := old.cap
 doublecap := newcap + newcap
@@ -309,12 +291,9 @@ if cap > doublecap {
 
 >需要注意的是，切片扩容还会根据切片中元素的类型不同而做不同的处理，比如`int`和`string`类型的处理方式就不一样。
 
- {{< /admonition >}}
-
 ## 13. copy函数🗯️
 
 Go语言内建的`copy()`函数可以迅速地将一个切片的数据复制到另外一个切片空间中,注意是新开辟的空间，和第9小节区的共享底层数组分开来
-
 ```go
 s1 := []int{1, 3, 5}
 s2 := s1 // 共享底层数组
@@ -327,7 +306,6 @@ fmt.Println(s1, s2, s3)
 ```
 
 `out`
-
 ```go
 [1 3 5] [1 3 5] [1 3 5]
 [1 100 5] [1 100 5] [1 3 5]
@@ -336,8 +314,7 @@ fmt.Println(s1, s2, s3)
 ## 14. 刪除元素🗨️
 
 Go语言中并没有删除切片元素的专用方法，我们可以使用切片本身的特性来删除元素。 代码如下：
-{{< admonition type=example  title="删除"  >}}
-
+删除
 ```go
 // 接上面代碼
 s1 = append(s1[:1], s1[2:]...)  // s1[2:] 换成s2[2:],也是可以成功删除的
@@ -377,12 +354,11 @@ fmt.Println(x1)  //[1,100,5]
 [1 100 5]
 ```
 可以看到一个很奇怪的现象，当我们删除了s1[1]后，s1正常删除，但是x1却不是，这就是删除操作给底层数组带来的影响，底层数组的[2]还是5没有动，但是[1]元素被删除后，底层数组的[1]被[2]覆盖了。
- {{< /admonition >}}
+
 ## 15. 切片面试题
-{{< admonition type=example  title="题目1"  >}}
 
+### 题目1
 写出下面程序运行结果
-
 ```go
 var s = make([]int, 5, 10)
 fmt.Println(s)  // 这一句是调试加的
@@ -394,7 +370,6 @@ fmt.Println(len(s), cap(s))
 ```
 
 `out`
-
 ```go
 [0 0 0 0 0]
 [0 0 0 0 0 0 1 2 3 4 5 6 7 8 9] 
@@ -402,12 +377,11 @@ fmt.Println(len(s), cap(s))
 ```
 
 这题确实是个坑，以为结果会是这样`[0 1 2 3 4 5 6 7 8 9]` ,然而却是`[0 0 0 0 0 0 1 2 3 4 5 6 7 8 9]`，是因为一开始初始化的时候就有默认值了。
- {{< /admonition >}}
 
-{{< admonition type=example  title="题目2"  >}}
+
+### 题目2
 
 写出下面程序运行结果
-
 ```go
 func main() {
 	var s = make([]int, 1)
@@ -421,12 +395,9 @@ func main() {
 ```go
 [0 1]
 ```
-
 这题也是个坑！
- {{< /admonition >}}
- 
-{{< admonition type=example  title="题目3"  >}}
 
+### 题目3
 ```go
 func main() {
 	var s []int
@@ -436,16 +407,13 @@ func main() {
 ```
 
 `out`
-
 ```go
 [1]
 ```
 
 这题考的是与上面的区别，使用`append()`可以初始化切片
- {{< /admonition >}}
 
 ## 16. sort.Ints(s[:])排序
-
 ```go
 import (
 	"fmt"
@@ -459,7 +427,6 @@ func main() {
 ```
 
 ## 17. 删除切片元素影响底层数组🦉
-
 ```go
 func main() {
 	var a = [5]int{1, 3, 5, 7, 9}
