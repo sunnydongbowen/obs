@@ -217,7 +217,7 @@ Russ 39
 ```
 
 通过输出结果我们看到：for range 对于 map 类型来说，每次循环，循环变量 k 和 v 分别会被赋值为 map 键值对集合中一个元素的 key 值和 value 值。而且，map 类型中没有下标的概念，通过 key 和 value 来循环操作 map 类型变量也就十分自然了。
-[[map基础篇#9. 对map按照key排序\|map基础篇#9. 对map按照key排序]]
+[[F.计算机学习笔记/Go语言/map基础篇#9. 对map按照key排序\|map基础篇#9. 对map按照key排序]]
 
 ## 6. for range 遍历channel 😀
 ---
