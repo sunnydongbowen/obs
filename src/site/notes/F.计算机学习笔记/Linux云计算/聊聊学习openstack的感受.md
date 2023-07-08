@@ -29,7 +29,7 @@
 
 俗话说，百炼成钢，我在使用**centos8+kolla-ansible 容器化部署openstack victoria版本**时，真的是搭建过不少于100次了！所以说，为什么我能够那么快速的把环境搭建好，我一步步的试错，一步步的找问题，找原因，环境搭建好了，测试，摧毁，再继续搭建！这样反反复复多次，也写了相关的自动化脚本，从单节点到多节点，可以说，这套搭建已经相对规范和成熟了。也是我学到了最多的东西之一。在线搭建的脚本和步骤已经开源出来了。后面有时间的话会补充一份文档。我的github上已经写的比较详细了。
 
-[online-deploy](https://github.com/sunnydongbowen/online_deploy_victoria](https://github.com/sunnydongbowen/online_deploy_victoria) ~这是我的开源出来的在线部署脚本。
+[online-deploy](https://github.com/sunnydongbowen/online_deploy_victoria) ~这是我的开源出来的在线部署脚本。
 
 在这套系统熟练了以后，再搭建其他任何环境，真的是小儿科了，一通百通。这一点我深有体会，这么难的都会了，再去搞k8s，搞其他的，不是手到擒来吗。不要那么妄自菲薄！
 
