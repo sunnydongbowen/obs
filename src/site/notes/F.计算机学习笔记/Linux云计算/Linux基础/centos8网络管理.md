@@ -15,7 +15,7 @@ centos8中，network.service 是没有的，如果想用，要手动装一下，
 ---
 配置网络，可使用nmtui。例如下面，具体怎么配置，百度参考一下细节的配置，比如ipv4和v6，子网掩码，网关和默认路由等。尽量不要配错，之前使用nmtui配置，导致vmware虚拟机我始终连不上，最后改成自动获取重启网络解决。真用还是得写死在配置文件里。慎用这个方法改ip和禁用，不然就连不上了！
 
-![https://cdn.nlark.com/yuque/0/2021/png/812311/1618235608473-79c38125-7c43-4248-8485-33f4f76811a4.png](https://cdn.nlark.com/yuque/0/2021/png/812311/1618235608473-79c38125-7c43-4248-8485-33f4f76811a4.png)
+![Pasted image 20230711194611.png](/img/user/Pasted%20image%2020230711194611.png)
 
 [Linux安全之SSH 密钥创建及密钥登录_呐喊的专栏-CSDN博客_ssh密钥登录](https://blog.csdn.net/nahancy/article/details/79059135)
 网上有nmcli方法，不习惯用，安装network-scripts,或者使用nmtui吧。不过使用nmcli做bond很方便！使用nmtui时没有办法重启网卡，重启的时候直接断掉没法启动了。
