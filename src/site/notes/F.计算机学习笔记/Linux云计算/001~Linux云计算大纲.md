@@ -57,6 +57,7 @@
 [[F.计算机学习笔记/Linux云计算/Linux基础/iptables\|iptables]]
 [[F.计算机学习笔记/Linux云计算/Linux基础/防火墙\|防火墙]]
 [[F.计算机学习笔记/Linux云计算/Linux基础/关于ssh\|关于ssh]]
+[[F.计算机学习笔记/Linux云计算/Linux基础/selinux权限\|selinux权限]]
 
 ## 服务
 ---
