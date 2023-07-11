@@ -85,7 +85,7 @@
 [[F.计算机学习笔记/Linux云计算/Linux基础/视频笔记~python+Linux\|视频笔记~python+Linux]]
 
 # shell脚本
-
+待补充
 # docker
 [[F.计算机学习笔记/Linux云计算/docker/认识docker和虚拟化\|认识docker和虚拟化]]
 [[F.计算机学习笔记/Linux云计算/docker/docker镜像\|docker镜像]]
