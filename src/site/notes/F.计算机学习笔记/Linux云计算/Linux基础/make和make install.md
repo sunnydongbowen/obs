@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":" ","permalink":"/ /","noteIcon":"","created":"2022-01-19","updated":""}
+{"dg-publish":true,"dg-permalink":"make和make install","permalink":"/make和make install/","noteIcon":"","created":"2022-01-19","updated":""}
 ---
 
 
