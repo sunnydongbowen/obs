@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":" ","permalink":"/ /","noteIcon":"","created":"2021-11-19","updated":""}
+{"dg-publish":true,"dg-permalink":"history命令","permalink":"/history命令/","noteIcon":"","created":"2021-11-19","updated":""}
 ---
 
 
