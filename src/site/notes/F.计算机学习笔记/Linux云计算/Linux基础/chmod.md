@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":" ","permalink":"/ /","noteIcon":"","created":"2022-11-29","updated":""}
+{"dg-publish":true,"dg-permalink":"chmod","permalink":"/chmod/","noteIcon":"","created":"2022-11-29","updated":""}
 ---
 
 
