@@ -57,7 +57,14 @@
 
 ## Web
 ---
-
+[[F.计算机学习笔记/Go语言/go web/《汪明Go并发编程实战》http\|《汪明Go并发编程实战》http]]
+[[F.计算机学习笔记/Go语言/go web/《汪明Go并发编程实战》https\|《汪明Go并发编程实战》https]]
+[[F.计算机学习笔记/Go语言/go web/gin示例及restfulAPI\|gin示例及restfulAPI]]
+[[F.计算机学习笔记/Go语言/go web/gin路由\|gin路由]]
+[[F.计算机学习笔记/Go语言/go web/gin~session\|gin~session]]
+[[F.计算机学习笔记/Go语言/go web/gin的middleware\|gin的middleware]]
+[[F.计算机学习笔记/Go语言/go web/gin的redirect\|gin的redirect]]
+[[F.计算机学习笔记/Go语言/go web/gin文件上传\|gin文件上传]]
 
 
 ## 算法
