@@ -20,7 +20,7 @@
 ![Pasted image 20230622161742.png](/img/user/Z.image/Linux/Pasted%20image%2020230622161742.png)
 
 对于相同权限的用户，放在一个组里。
-664，要知道对应关系。rw-rw-r- -
+比如664，要知道对应关系。rw-rw-r- -
 
 # 4、ls命令显示的详细信息
 ---
@@ -31,9 +31,8 @@ total 8
 -rw-r--r--. 1 root root 1565 Nov 30 19:00 initial-setup-ks.cfg
 ```
 
-权限 硬链接数 用户 用户组 大小 时间 文件名
+<span style="background:#40a9ff">权限 硬链接数 用户 用户组 大小 时间 文件名</span>
 硬链接数：表示有多种到达该目录或文件，一个目录的子目录越多，硬链接数越多，文件的链接数一般是1。
-
 
 # 5、 s权限
 ---
