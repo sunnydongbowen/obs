@@ -3,7 +3,6 @@
 ---
 
 
-
 [[F.计算机学习笔记/Linux云计算/弱项\|弱项]]
 
 # Linux基础
@@ -59,11 +58,13 @@
 [[F.计算机学习笔记/Linux云计算/Linux基础/防火墙\|防火墙]]
 [[F.计算机学习笔记/Linux云计算/Linux基础/关于ssh\|关于ssh]]
 [[F.计算机学习笔记/Linux云计算/Linux基础/selinux权限\|selinux权限]]
+[[F.计算机学习笔记/Linux云计算/Linux基础/常用的网络协议\|常用的网络协议]]
 
 ## 服务
 ---
 [[F.计算机学习笔记/Linux云计算/Linux基础/reload\|reload]]
 [[F.计算机学习笔记/Linux云计算/Linux基础/make和make install\|make和make install]]
+
 ## 安装包管理
 ---
 [[F.计算机学习笔记/Linux云计算/Linux基础/rpm常用命令\|rpm常用命令]]
@@ -79,6 +80,10 @@
 [[F.计算机学习笔记/Linux云计算/Linux基础/解决RPM-GPG-KEY-EPEL-8报错\|解决RPM-GPG-KEY-EPEL-8报错]]
 [[F.计算机学习笔记/Linux云计算/Linux基础/解决centos8时间不同步问题\|解决centos8时间不同步问题]]
 
+## 工具使用
+---
+[[F.计算机学习笔记/Linux云计算/Linux基础/tcpdump使用\|tcpdump使用]]
+
 ## 视频笔记
 ---
 [[F.计算机学习笔记/Linux云计算/Linux基础/视频笔记(百度网盘保存)\|视频笔记(百度网盘保存)]]
@@ -86,8 +91,12 @@
 [[F.计算机学习笔记/Linux云计算/Linux基础/视频笔记~python+Linux\|视频笔记~python+Linux]]
 
 # shell脚本
-待补充
+---
+[[F.计算机学习笔记/Linux云计算/Linux基础/换行与交互\|换行与交互]]
+[[尚硅谷shell课程学习\|尚硅谷shell课程学习]]
+
 # docker
+---
 [[F.计算机学习笔记/Linux云计算/docker/认识docker和虚拟化\|认识docker和虚拟化]]
 [[F.计算机学习笔记/Linux云计算/docker/docker镜像\|docker镜像]]
 [[F.计算机学习笔记/Linux云计算/docker/docker容器管理\|docker容器管理]]
