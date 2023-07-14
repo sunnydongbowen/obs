@@ -22,7 +22,7 @@ setenforce 0     ##设置SELinux 成为permissive模式
 - 修改/etc/selinux/config 文件
 - 将SELINUX=enforcing改为SELINUX=disabled
 - 重启机器即可
-![Pasted image 20230712101607.png](/img/user/Pasted%20image%2020230712101607.png)
+![Pasted image 20230712101607.png](/img/user/Z.image/linux%E5%9F%BA%E7%A1%80/Pasted%20image%2020230712101607.png)
 
 ```bash
 sed -i '/^SELINUX=/c SELINUX=disabled' /etc/selinux/config
