@@ -44,7 +44,7 @@
 ---
 [[F.计算机学习笔记/Linux云计算/Linux基础/ps命令\|ps命令]]
 [[F.计算机学习笔记/Linux云计算/Linux基础/查看端口\|查看端口]]
-[[kill\|kill]]
+[[F.计算机学习笔记/Linux云计算/Linux基础/kill\|kill]]
 
 ## 性能监控
 ---
@@ -95,11 +95,15 @@
 [[F.计算机学习笔记/Linux云计算/Linux基础/视频笔记(百度网盘保存)\|视频笔记(百度网盘保存)]]
 [[F.计算机学习笔记/Linux云计算/Linux基础/视频笔记~新萌教育公开课笔记\|视频笔记~新萌教育公开课笔记]]
 [[F.计算机学习笔记/Linux云计算/Linux基础/视频笔记~python+Linux\|视频笔记~python+Linux]]
+[[F.计算机学习笔记/Linux云计算/Linux基础/视频笔记~韩顺平老教程百度网盘\|视频笔记~韩顺平老教程百度网盘]]
 
 # shell脚本
 ---
 [[F.计算机学习笔记/Linux云计算/Linux基础/换行与交互\|换行与交互]]
-[[尚硅谷shell课程学习\|尚硅谷shell课程学习]]
+[[F.计算机学习笔记/Linux云计算/shell脚本/vi命令学习\|vi命令学习]]
+[[F.计算机学习笔记/Linux云计算/shell脚本/echo\|echo]]
+[[F.计算机学习笔记/Linux云计算/shell脚本/wc命令\|wc命令]]
+[[F.计算机学习笔记/Linux云计算/shell脚本/尚硅谷shell课程学习\|尚硅谷shell课程学习]]
 
 # docker
 ---
@@ -112,3 +116,5 @@
 
 # k8s
 [[F.计算机学习笔记/Linux云计算/openstack vs  k8s\|openstack vs  k8s]]
+[[F.计算机学习笔记/Linux云计算/聊聊学习openstack的感受\|聊聊学习openstack的感受]]
+
