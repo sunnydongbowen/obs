@@ -2,6 +2,7 @@
 {"dg-publish":true,"dg-permalink":"ls命令","permalink":"/ls命令/","noteIcon":"","created":"2021-01-09","updated":""}
 ---
 
+> 这个是我看Py里面Linux视频记录的笔记。这个视频讲的很好。基础知识里面不少是摘录的视频里面的做的笔记。
 
 - 以人性化方式
 ```bash
