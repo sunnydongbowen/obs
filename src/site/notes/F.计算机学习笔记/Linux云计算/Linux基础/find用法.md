@@ -26,6 +26,7 @@ find / -name ***|xargs rm -rf     //***为你要删除的文件或文件夹
 ```bash
 # 一般记住这个就可以了。后面要记住的可能就是查看较大文件的那个命令。
 find / -name getcpu.py
+find /path  -name ....
 ```
 
 ```bash
