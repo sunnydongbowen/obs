@@ -44,9 +44,9 @@ func TestUpload(t *testing.T) {
 - 不要加`multiple`,这是单文件上传
 - postman无法测试，这个要通过浏览器测试
 这是我在replit上跑的结果。
-![Pasted image 20230705102508.png](/img/user/Pasted%20image%2020230705102508.png)
+![Pasted image 20230705102508.png](/img/user/Z.image/Go/Pasted%20image%2020230705102508.png)
 运行程序后它会给出一个域名，然后我们访问域名和url。就可以上传文件，最后看到服务器文件上传成功。
-![Pasted image 20230705102815.png](/img/user/Pasted%20image%2020230705102815.png)
+![Pasted image 20230705102815.png](/img/user/Z.image/Go/Pasted%20image%2020230705102815.png)
 
 
 本机运行结果:
