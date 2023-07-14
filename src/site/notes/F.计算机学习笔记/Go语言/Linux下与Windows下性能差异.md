@@ -10,10 +10,10 @@
 我早上起来吃过早饭，复习了一下锁。敲了一个很简单的程序，程序在这里。[[F.计算机学习笔记/Go语言/并发编程基础篇#5.2 读写互斥锁\|并发编程基础篇#5.2 读写互斥锁]] 。
 
 首先，这个程序我以前学习的时候敲过一次了，后来整理博客复习又敲了一次。这应该是第四次了。很简单的一个demo。我在replit敲完跑了一下，结果是这样的。
-![Pasted image 20230704114657.png](/img/user/Pasted%20image%2020230704114657.png)
+![Pasted image 20230704114657.png](/img/user/Z.image/Go/Pasted%20image%2020230704114657.png)
 
 结果我尝试在本地命令行跑了几次
-![Pasted image 20230704114744.png](/img/user/Pasted%20image%2020230704114744.png)
+![Pasted image 20230704114744.png](/img/user/Z.image/Go/Pasted%20image%2020230704114744.png)
 结果是这样的。
 
 我的疑问来了，replit主机才0.5核 512M 内存，而我的Windows笔记本是32G内存，8核的CPU啊。跑不过0.5核的在线云练习平台？我不甘心，反复尝试，结合之前在replit练习和我之前在windows本地运行的结果，还是在replit上跑的快！而且差距很大！例如
