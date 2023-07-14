@@ -70,14 +70,14 @@ func sum1(a,b int) (sum int,error){
 ## main函数尽量放外面
 ---
 
-![Pasted image 20230703110045.png](/img/user/Pasted%20image%2020230703110045.png)
+![Pasted image 20230703110045.png](/img/user/Z.image/Go/Pasted%20image%2020230703110045.png)
 
 
 这个是我在运行单元测试遇到的，为什么会有这个错误，是因为我把这个文件夹下的包声明成了package main，因为这个程序是带main函数的，尽管它只是一个测试程序。所以我这样写是不规范的。<font color="#c00000">正常的只能有一个main函数。且其他包的package声明尽量一致</font>。所以我之前的做法是不规范的。这就是在Linux命令行下运行和在windows下运行的区别。
 
 看看下面的报错！所以不要随随便便的去写main函数，声明main包。平时的demo用test方式去练习就好了。正儿八经的项目只有个main包和main入口的！
 
-![Pasted image 20230703102935.png](/img/user/Pasted%20image%2020230703102935.png)
+![Pasted image 20230703102935.png](/img/user/Z.image/Go/Pasted%20image%2020230703102935.png)
 
 ## gofmt
 ---
