@@ -19,8 +19,8 @@
 [[F.计算机学习笔记/Linux云计算/Linux基础/which\|which]]   [[F.计算机学习笔记/Linux云计算/Linux基础/who命令\|who命令]]
 [[F.计算机学习笔记/Linux云计算/Linux基础/移除升级内核产生的文件\|移除升级内核产生的文件]]
 [[F.计算机学习笔记/Linux云计算/Linux基础/history命令\|history命令]]
-[[F.计算机学习笔记/Linux云计算/Linux基础/云服务器分区\|云服务器分区]]
 [[F.计算机学习笔记/Linux云计算/Linux基础/关于root权限的问题\|关于root权限的问题]]
+
 
 ## 文件与用户管理
 ---
@@ -35,10 +35,16 @@
 [[F.计算机学习笔记/Linux云计算/Linux基础/ls命令\|ls命令]]
 [[F.计算机学习笔记/Linux云计算/Linux基础/rm命令\|rm命令]]
 
+## 磁盘管理
+---
+[[df \|df ]]
+[[F.计算机学习笔记/Linux云计算/Linux基础/云服务器分区\|云服务器分区]]
+
 ## 进程管理
 ---
 [[F.计算机学习笔记/Linux云计算/Linux基础/ps命令\|ps命令]]
 [[F.计算机学习笔记/Linux云计算/Linux基础/查看端口\|查看端口]]
+[[kill\|kill]]
 
 ## 性能监控
 ---
