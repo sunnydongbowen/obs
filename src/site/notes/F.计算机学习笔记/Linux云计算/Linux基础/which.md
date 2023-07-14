@@ -18,3 +18,11 @@
 [root@os14 bowen]# ll /usr/sbin/useradd
 -rwxr-xr-x. 1 root root 143424 Aug 13  2020 /usr/sbin/useradd
 ```
+
+```ad-note
+cd 命令是内置在内核里面的，这个命令比较特殊。但是我`which cd`是也能找到的。
+```
+
+## /bin 区别
+---
+![Pasted image 20230714202039.png](/img/user/Pasted%20image%2020230714202039.png)
