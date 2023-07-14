@@ -9,6 +9,7 @@
 ```bash
 ps aux 
 ```
+<span style="background:#d2cbff">注意ps只会显示当前用户通过终端启动的程序。u表示进程的详细状态，a表示所有进程，包括其他用户，x表示没有控制终端的进程。</span>   一般结合[[F.计算机学习笔记/Linux云计算/Linux基础/如何退出top命令\|如何退出top命令]]  [[kill\|kill]] 使用，查看进程。
 
 - 用下面这个多一些
 ```bash
