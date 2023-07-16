@@ -97,6 +97,12 @@
 [[F.计算机学习笔记/Linux云计算/Linux基础/视频笔记~python+Linux\|视频笔记~python+Linux]]
 [[F.计算机学习笔记/Linux云计算/Linux基础/视频笔记~韩顺平老教程百度网盘\|视频笔记~韩顺平老教程百度网盘]]
 
+## ubuntu
+---
+[[F.计算机学习笔记/Linux云计算/ubuntu/apt安装软件\|apt安装软件]]
+[[F.计算机学习笔记/Linux云计算/ubuntu/更改软件源\|更改软件源]]
+
+
 # shell脚本
 ---
 [[F.计算机学习笔记/Linux云计算/Linux基础/换行与交互\|换行与交互]]
@@ -116,5 +122,11 @@
 
 # k8s
 [[F.计算机学习笔记/Linux云计算/openstack vs  k8s\|openstack vs  k8s]]
+[[F.计算机学习笔记/Linux云计算/聊聊学习openstack的感受\|聊聊学习openstack的感受]]
+
+## 杂谈
+---
+[[F.计算机学习笔记/Linux云计算/聊聊云桌面项目中性能测试那些事\|聊聊云桌面项目中性能测试那些事]]
+[[F.计算机学习笔记/Linux云计算/那些年，我搭过的环境\|那些年，我搭过的环境]]
 [[F.计算机学习笔记/Linux云计算/聊聊学习openstack的感受\|聊聊学习openstack的感受]]
 
