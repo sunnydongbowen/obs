@@ -25,4 +25,4 @@ cd 命令是内置在内核里面的，这个命令比较特殊。但是我`whic
 
 ## /bin 区别
 ---
-![Pasted image 20230714202039.png](/img/user/Pasted%20image%2020230714202039.png)
+![Pasted image 20230714202039.png](/img/user/Z.image/linux%E5%9F%BA%E7%A1%80/Pasted%20image%2020230714202039.png)
